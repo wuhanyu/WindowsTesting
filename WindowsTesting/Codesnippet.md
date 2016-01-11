@@ -41,7 +41,7 @@ Console.WriteLine(string2b);
  ```
 
 ## Example 3
- [!div class="tabbedCodeSnippets" data-resources="OutlookServices.Calendar"]
+>[!div class="tabbedCodeSnippets" data-resources="OutlookServices.Calendar"]
  ```javascript-i
 function inchestometers(inches)
    {
