@@ -58,7 +58,6 @@ var meters = inchestometers(inches);
 document.write("the value in meters is " + meters);
 /*
 This is a multiline comment that explains the preceding code statement.
-
 The statement assigns a value to the aGoodIdea variable. The value, 
 which is contained between the quote marks, is called a literal. A 
 literal explicitly and directly contains information; it does not 
