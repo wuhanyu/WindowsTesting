@@ -4,19 +4,17 @@ Testing codesnippet page.
 ## Example 1
 
 > [!div class="tabbedCodeSnippets" data-resources="OutlookServices.Calendar"]
-```cs-i
+> ```cs-i
 var outlookClient = await CreateOutlookClientAsync("Calendar");
 var events = await outlookClient.Me.Events
   .Take(10)
   .ExecuteAsync();
- 
 foreach(var calendarEvent in events.CurrentPage)
 {
   System.Diagnostics.Debug.WriteLine("Event '{0}'.", calendarEvent.Subject);
 }
- 
-```
-```javascript-i
+ ```
+>```javascript-i
 outlookClient.me.events.getEvents().fetch().then(function (result) {
     result.currentPage.forEach(function (event) {
 console.log('Event "' + event.subject + '"')
@@ -44,7 +42,7 @@ Console.WriteLine(string2b);
 
 ## Example 3
 > [!div class="tabbedCodeSnippets" data-resources="OutlookServices.Calendar"]
-```javascript-i
+> ```javascript-i
 function inchestometers(inches)
    {
    if (inches < 0)
@@ -55,11 +53,9 @@ function inchestometers(inches)
       return meters;
       }
    }
-
 var inches = 12;
 var meters = inchestometers(inches);
 document.write("the value in meters is " + meters);
-
 /*
 This is a multiline comment that explains the preceding code statement.
 
