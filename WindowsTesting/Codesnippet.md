@@ -1,7 +1,7 @@
 # Codesnippet
 Testing codesnippet page.
 
-<!-- BEGINSECTION class="tabbedCodeSnippets" -->
+> [!div class="tabbedCodeSnippets" data-resources="OutlookServices.Calendar"]
 ```cs-i
 string string1 = "This is a string created by assignment.";
 Console.WriteLine(string1);
@@ -14,4 +14,4 @@ Console.WriteLine(string2b);
 //       The path is C:\PublicDocuments\Report1.doc
 //       The path is C:\PublicDocuments\Report1.doc      
  ```
-<!-- ENDSECTION -->
+
